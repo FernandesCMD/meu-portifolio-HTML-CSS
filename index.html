@@ -5,21 +5,40 @@
     <http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfólio</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./styles/style.css">
 </head>
 <body>
-    <header></header>
+    <header class="cabecalho">
+        <nav class="cabecalho__menu">
+            <div class="cabecalho__menu__acessibilidade">
+                <a class="cabecalho__menu__acesso" href="index.html">Home</a>
+                <a class="cabecalho__menu__acesso" href="about.html">Sobre mim</a>
+            </div>
+            <div class="cabecalho__menu__redes-sociais">
+                <a class="cabecalho__menu__link" href="https://linkedin.com/in/lucasfmoura17" target="_blank">
+                    <img src="./assets/linkedin.png" alt="LinkedIn">
+                </a>
+                <a class="cabecalho__menu__link" href="https://github.com/FernandesCMD" target="_blank">  
+                    <img src="./assets/github.png" alt="GitHub">
+                </a>
+                <a class="cabecalho__menu__link" href="https://www.instagram.com/luca.sfmoura/" target="_blank">
+                    <img src="./assets/instagram.png" alt="Instagram">
+                </a>
+            </div>
+        </nav>
+    </header>
     <main class="apresentacao">
         <section class="apresentacao__conteudo">
             <h1 class="apresentacao__conteudo__nome">Lucas Fernandes de Moura</h1>
             <p class="apresentacao__conteudo__descricao"> Estudante de Ciência da Computação, <strong class="apresentacao__conteudo__descricao__destaque">focando meu estudos  em desenvolvimento web.</strong> Meu objetivo é ser desenvolvedor full-stack </p>
-            <div class="links"> 
-                <a class="link" href="https://www.linkedin.com/in/lucas-fernandes-de-moura/" target="_blank">LinkedIn</a>
-                <a class="link" href="https://github.com/FernandesCMD" target="_blank">GitHub</a>
+            <div class="apresentacao__conteudo__curriculo">
+                <a class="apresentacao__conteudo__curriculo__link" href="Currículo Lucas Fernandes de Moura.pdf" target="_blank">Acesse meu currículo</a>
             </div>
         </section>
-            <img src="imagem.jpeg" alt="Foto do Lucas Fernandes de Moura">
+            <img class="foto-de-perfil" src="./assets/image.jpeg" alt="Foto do Lucas Fernandes de Moura">
     </main>
-    <footer></footer>
+    <footer class="rodape">
+        <p>Desenvolvido por Lucas Fernandes de Moura.</p>
+    </footer>
 </body>
 </html>
